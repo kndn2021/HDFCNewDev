@@ -18,7 +18,7 @@ public class DriverSetup {
 	public DriverSetup() throws IOException
 	{
 		pro = new Properties();
-		fileInput = new FileInputStream("C:\\Users\\Bhushan\\eclipse-workspace\\HDFCPOM\\src\\main\\java\\hdfc\\login\\page\\Input.properties");
+		fileInput = new FileInputStream("C:\\Users\\Bhushan\\eclipse-workspace\\HDFCPOM\\src\\main\\resources\\Input.properties");
 		pro.load(fileInput);
 	}
 	
